@@ -1,0 +1,145 @@
+
+Jalur Belajar Web Programming 2021 (untuk pemula)
+
+- Internet & Teknologi Web, 
+HTTP
+WWW
+Web Browser 
+Web Hosting $ Nama Domain
+
+- Tools Pendukung
+code editor : visual studio editor, sublime text, atom, vim
+web browser : Google Chrome, Mozila Firefox, Safari, Opera
+design tools : Figma, Adobe XD, Photoshop
+
+HTML
+CSS Dasar
+CSS Layouting
+CSS 3
+CSS Framework
+Version Control System menggunakan Git
+Dasar Pemograman Menggunakan Javascript
+
+
+install extension, 
+prettier
+extension settings
+- print width : 240
+- ceklis prettier semi
+- tab width : 2
+
+ketik di pencarian : format on save, lalu ceklis, agar otomatis rapih 
+ketik di pencarian : default formatter, ganti jadi esbend.prettier.vscode
+
+
+install extension,
+open in browser
+1. index.html
+-buka getbootstap.com
+- copy introduction ke index.html
+- option 2 : separate popper, hapus
+class="text-center", agar text ke tengah
+class="text-start", agar text ke sebelah kanan
+class="text-end", agar text ke sebelah kiri
+
+untuk mengganti warna "text-warna", untuk referensi warna bisa dilihat di getbootstrap/utilities/colours
+
+1.1 membuat navbar
+- tambah pengingat <!-- Navbar -->, <!-- Akhir Navbar --> dalam <body></body>
+- buka dokumenasi, cari navbar
+- agar tulisan utama tidak mepet kiri, ubah container-fluid jadi container
+- agar tulisan fitur lainnya geser ke sebelah kanan, ubah navbar-nav jadi navbar-nav ms-auto
+- mengganti warna navbar ubah pada <nav class="navbar ....> ganti bg-light menjadi warna seperti primery, jika tidak ada bisa custom dengan menambahkan style  style="background-color: #000000"
+
+untuk menduplikat coding, alt+shift+panah atas atau bawah
+
+1.1.1 menambahkan shadow pada navbar
+- buka dokumentasi
+- cari shadow
+- copy code, simpan di <nav class
+
+1.2 tambah jumbotron atau hero section
+- buka dokumentasi
+- pilih versi ke versi 4
+- cari jumbotron
+- copy
+- tambah informasi <!-- jumbotron di bawah <!-- Akhir Navbar
+- ganti <div menjadi <section
+- install autorename tag, agar tag merubah otomatis
+
+- buat style/css jumbotron secara manual dibawah bootstrapcss
+- tambah komentar <!-- My CSS -->
+- link tab dengan nama style.css
+- buat file style.css
+.jumbotron {
+  padding: 2rem 1rem;
+  background: #e2edff;
+}
+- <hr dan <p hapus
+
+1.2.1 menambahkan foto profil/gambar
+- buat folder img
+- copas gambar
+- tambah <img di bawah section class="jumbotron"
+- kecilkan gambar tambah width ="200" pada <img 
+- tambah text-center pada <section agar object ditengah
+- tambah class <img class="rounded-circle" agar foto menjadi bulat
+- tambah border putih pada foto profil
+-- buka dokumendasi
+-- pilih image thumbnails class="rounded-circle img-thumbnail"
+- tambah efek gelombang
+-- buka getwaves.io
+- copy warna dari putih #ffffff
+- klik
+- copy code
+- simpan code di section jumbotron paling bawah
+- ganti style.css, padding: 2rem 1rem; menjadi padding-top
+
+1.3 tambah section about
+- buat section namanya about
+- buat layout
+- masuk dokumentasi
+- cari layout -> container
+- buat container
+- tamba col-4 agar tulisan tidak terlalu melebar
+- agar kedua text ditengah maka tambah justify-content-center pada <div row
+- ganti ukuran text, tambah fs-5 pada row
+- tambah text-center agar text center
+- menambah jarak antara judul dengan deskripsi
+- buat efek gelombang seperti diatas dengan warna kebalikannya
+
+
+1.4 Tambah Section Projects
+- tamabh .section
+- tambah .container
+- tambah .row
+- tambah .col
+- tambah CSS
+
+1.4.1 tambah componen card
+- buka dokumentasi
+- cari card
+- copas ke dalam .col
+- tambah folder projects di dalam img
+- agar card responsive ketika dibuka di mobile
+-- buka dokumentasi/layout/breakpoints
+-- tambah md, col-md-4
+-tambah margin mb-3
+- tambah justify-content-center agar project ada di tengah
+- tambah gelombang
+
+1.5 tambah section contact
+- .section#contact
+- col-md-8
+- buka dokumentasi
+- buka komponen forms
+- tambah textare
+--buka dokumentasi
+-- buka form control
+
+1.6 tambah footer
+
+
+- agar navigasi tetap diatas, fixed-top
+
+tambah id=home pada head
